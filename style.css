@@ -1,0 +1,40 @@
+/* style sheet for designing perpose */
+
+
+/* costume font */
+
+@font-face {
+    font-family: font1;
+    src: url('./font/LeagueSpartan-Regular.ttf');
+}
+
+
+
+/* stylee */
+
+
+.img {
+    background-image: url("https://cdn.pixabay.com/photo/2019/05/09/03/21/students-4190327_1280.jpg");
+    min-height: 500px;
+    
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+        /* Needed to position the navbar */
+        position: relative;
+        max-width: 100%;
+}
+.uploade {
+    font-size: medium;
+    font-family: font1;
+    align-items: center;
+}
+.button{
+    border-radius: 16px;
+    height: 100px;
+    width: 100px;
+}
