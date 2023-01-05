@@ -1,4 +1,11 @@
 import os
+from firebase_admin import credentials, initialize_app, storage
+
+
+
+cred = credentials.Certificate("YOUR DOWNLOADED CREDENTIALS FILE (JSON)")
+initialize_app(cred, {'storageBucket': 'YOUR FIREBASE STORAGE PATH (without gs://)'})
+
  
 fileitem = form['filename']
  
